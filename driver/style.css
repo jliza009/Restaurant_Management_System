@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#order-section, #driver-section {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#order-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+#driver-status {
+    font-weight: bold;
+}

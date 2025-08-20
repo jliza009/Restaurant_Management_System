@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant | Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/19ddcc502a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--Header / navbar-->
+        <div class="header">
+        
+            
+            <div class="navlinks">
+                <ul>
+                
+                    <li id="hideOnMobile"><a href="index.html">HOME</a></li>
+                    <li id="hideOnMobile"><a href="#">ABOUT</a></li>
+                    <li id="hideOnMobile"><a href="menu.html"> MENU</a></li>
+                    <li id="hideOnMobile"><a href="#" onclick="toggleDiv()"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+                    <li id="hideOnMobile"><a href="./public/login.html"><i class="fa-solid fa-user" style="color: #d9ad0d;"></i></i></a></li>
+                    <li id="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a></li>
+                </ul>
+                
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></a></li>
+                    <li id="side-text"><a href="index.html">HOME</a></li>
+                    <li id="side-text"><a href="#">ABOUT</a></li>
+                    <li id="side-text"><a href="menu.html"> MENU</a></li>
+                    <li id="side-text"><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+                    <li id="side-text"><a href="#"><i class="fa-solid fa-user" style="color: #d9ad0d;"></i></i></a></li>
+
+
+                </ul>
+            </div>
+        
+        </div>
+
+    <!--Link to js file-->
+<script src="app.js"></script>
+
+<!--Landing Page-->
+    <div class="home">
+        <div class="main-slide">
+            <div>
+                <h1>Enjoy The Flavours Of The Season</h1>
+                <p>"Flavorful Moments, Unforgettable Memories. Join us for an extraordinary dining experience where every bite tells a story, and every meal creates a memory. Welcome to the heart of culinary delight."</p>
+                <a href="menu.html" class="menu-btn">Menu</a>
+            </div>
+            
+        </div>
+    </div>
+
+<!--Categories-->
+    <div class="food-items"> 
+        <div class="item">
+            <div>
+                <img src="/img/service-1.jpg" alt="">
+            </div>
+            <h3>Appetizer</h3>
+            <p>"Taste the Magic, One Bite at a Time"</p>
+            <a href="menu.html#appetizer" class="item-btn">Appetizers</a>
+        </div>
+        <div class="item">
+            <div>
+                <img src="/img/service-2.jpg" alt="">
+            </div>
+            <h3>Entree</h3>
+            <p>"Savor Every Bite: Elevate Your Dining Experience</p>
+            <a href="menu.html#entree" class="item-btn">Entree</a>
+        </div>
+        <div class="item">
+            <div>
+                <img src="/img/service-3.jpg" alt="">
+            </div>
+            <h3>Desserts & Drinks</h3>
+            <p>"Sweeten Your Day: Delight in Our Desserts & Drinks"</p>
+            <a href="menu.html#d&d" class="item-btn">Desserts & Drinks</a>
+        </div>
+    </div>
+
+<!--Why choose us-->
+    <div class="main-slide2">
+        <div class="food-img">
+            <img src="/img/special-dish-banner.jpg">
+        </div>
+        <div class="questions">
+            <div>
+                <h2>Why choose Us?</h2>
+            </div>
+        
+            <div class="q-ans">
+                <div>
+                    <img src="/img/features-icon-3.png">
+                </div>
+                <div>
+                    <h4>Personalized Service</h4>
+                    <p>Our attentive staff is dedicated to making your visit unforgettable</p>
+
+                </div>
+            </div>
+            <div class="q-ans">
+                <div>
+                    <img src="/img/features-icon-1.png">
+                </div>
+                <div>
+                    <h4>Exceptional Flavor</h4>
+                    <p> We use fresh, locally-sourced ingredients to craft dishes that delight your taste buds</p>
+                </div>
+            </div>
+            <div class="q-ans">
+                <div>
+                    <img src="/img/features-icon-2.png">
+                </div>
+                <div>
+                    <h4>Warm Atmosphere</h4>
+                    <p>Experience our cozy and inviting dining environment, perfect for any occasion.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Menu Snippets-->
+<div class="menu1">
+    <h2> OUR MENU</h2>
+    <p>"Dive Into Delicious: Discover Our Delectable Menu"</p>
+    <div class="container">
+        <div class="menu-items">
+            <img src="/img/pizza-3007395_640.jpg">
+       
+            <div class="des">
+                <span>Entree</span>
+                <h3>Vegeterian Pizaa</h3>
+                <span>Large</span>
+                <h5>KSH 1550</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+        <div class="menu-items">
+            <img src="/img/shape-9.png">
+       
+            <div class="des">
+                <span>Appetizer</span>
+                <h3>Mishkaki</h3>
+                <h5>KSH 250</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+        <div class="menu-items">
+            <img src="/img/spring-roll-6760871_640.jpg">
+       
+            <div class="des">
+                <span>Appetizer</span>
+                <h3>Spring Rolls</h3>
+                <span>4pcs</span>
+                <h5>KSH 500</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+        <div class="menu-items">
+            <img src="/img/cookies-8668140_640.jpg">
+       
+            <div class="des">
+                <span>Dessert</span>
+                <h3>Chocolate Chip Cookies</h3>
+                <span>6ps</span>
+                <h5>KSH 700</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+        <div class="menu-items">
+            <img src="/img/drink-462776_640.jpg">
+       
+            <div class="des">
+                <span>Drink</span>
+                <h3>Coca-cola</h3>
+                <h5>KSH 150</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+        <div class="menu-items">
+            <img src="/img/food-712665_640.jpg">
+       
+            <div class="des">
+                <span>Entree</span>
+                <h3>Smoked Salmon</h3>
+                <h5>KSH 900</h5>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #c79d05;"></i></a>
+        </div>
+    </div>
+        
+        <span id="drop"><a href="menu.html">
+            <p>View More</p><i class="fa-solid fa-caret-down down" style="color: #b08a03;"></i>
+        </a></span>
+</div>
+
+<!--Shopping cart sidebar-->
+<div class="hidden" id="cart">
+    <div class="carttab">
+        <h1>Food Cart</h1>
+    
+        <div class="listcart">
+            <div class="cart-items">
+             <!--refer to app.js-->
+             <h3 class="name"></h3>
+             <span class="quantity"></span>
+             <span class="total-price"></span>
+            </div>
+        </div>
+        <div class="total">
+            <h5>Subtotal</h5>
+            <span id="subtotal-span" style="font-size: 13px;"></span>
+        </div>
+        <div class="total">
+            <h5>Delivery Fee</h5>
+            <span id="delivery-fee-span" style="font-size: 13px;"></span>
+        </div>
+        <div class="total">
+            <h4>Total</h4>
+            <span id="total-span"></span>
+        </div>
+      
+        <div class="coupon">
+            <h3>Coupon</h3>
+            <div>
+                <input type="text" placeholder="Apply Coupon">
+                <button class="coupon-btn">Apply</button>
+            </div>
+        </div>
+        <div class="cartbtn">
+            <button class="close" onclick=toggleDiv()>Close</button>
+            <button class="checkout" id="checkout-button">Check Out</button>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<section class="footer">
+    <h4>Contact us</h4>
+    <p> At Urban Folk, we are dedicated to providing top-notch service and products. Our mission is to ensure customer satisfaction and create value through innovation and excellence.</p>
+    <br>
+    <p>For any inquiries or feedback, Please contact us</p>
+
+      <div class="icons">
+        <a href="#"><i class="fa-brands fa-instagram" style="color: #c49c0e;"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook" style="color:  #c49c0e;"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope" style="color:  #c49c0e ;"></i></a>
+      </div>
+      <p style="color: rgba(241, 178, 4, 0.37);">© 2024 Urban Folk. All rights reserved</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+</section>
+    
+
+
+
+
+
+
+
+</body>
+</html>

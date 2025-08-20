@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Dashboard</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+  <div class="container">
+    <h1>Employee Dashboard</h1>
+    <div id="order-list">
+        <h2>Orders</h2>
+        <ul id="orders">
+            <!-- Orders will be dynamically generated here -->
+        </ul>
+    </div>
+    <div id="order-details" class="hidden">
+        <h2>Order Details</h2>
+        <p id="order-info"></p>
+        <label for="status">Change Status:</label>
+        <select id="status">
+            <option value="in kitchen">In Kitchen</option>
+            <option value="waiting for driver">Waiting for Driver</option>
+            <option value="out for delivery">Out for Delivery</option>
+            <option value="delivered">Delivered</option>
+        </select>
+        <label for="driver">Assign Driver:</label>
+        <input type="text" id="driver" placeholder="Driver Name">
+        <button class="status-btn" id="update-status">Update Status</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="app.js"></script> <!-- Link to your separate JavaScript file -->
+</body>
+</html>
